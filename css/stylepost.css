@@ -1,0 +1,110 @@
+section {
+    /*  */
+    padding-left: 150px;
+    padding-right: 150px;
+    /* text-align: center; */
+    /* font-family: "Work Sans", sans-serif;
+    line-height: inherit;
+    white-space: pre-line; */
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.915rem;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+    margin: 25px 0px;
+    font-weight: 450;
+
+}
+
+.upper-content {
+    display: flex;
+    margin: auto;
+    
+}
+
+.upper-content-paragraph {
+    padding-left: 40px;
+    padding-right: 40px; 
+    margin: auto;
+}
+a.ando{
+    text-decoration: none;
+    text-transform: capitalize;
+    font: bold 20px "open Sans", sans-serif;
+    margin-bottom: 30px;
+    color: rgb(25, 158, 175);
+}
+a.andoo{
+    text-decoration: none;
+    text-transform: capitalize;
+    font: bold 20px "open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: right;
+    color: rgb(25, 158, 175);
+}
+
+.gt{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.gtt{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+img.lehoi{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 0px;
+}
+
+.ckpta {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    font: bold 32px "open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+
+  }
+  
+  img.ca { 
+    width: 100%;
+    height: auto;
+  }
+
+.gallery .box-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 15px;
+    padding: 10px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.gallery .box-container .box{
+overflow: hidden;
+box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+border:1rem solid #fff;
+border-radius: 10px;
+flex:1 1 30rem;
+height: 25rem;
+position: relative;
+}
+
+.gallery .box-container .box img{
+height: 100%;
+width:100%;
+object-fit: cover;
+}
+
+.box img:hover {
+    transform: scale(1.1);
+  }

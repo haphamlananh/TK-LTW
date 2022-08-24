@@ -1,0 +1,189 @@
+.content {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    font: bold 32px "open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color:  rgb(255, 255, 255);
+  }
+
+
+
+/* ============tìm kiếm chuyến đi============= */
+h3.titlee{
+    text-transform: capitalize;
+    font: bold 32px "open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(25, 158, 175);
+}
+
+
+.book .row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .book .row .image{
+    flex:1 1 40rem;
+  }
+  
+  .book .row .image img{
+    width:50%;
+  }
+  
+  .book .row form.dk{
+    flex: 100%;
+    padding: 30px;
+    box-shadow: 0 0rem 1rem rgb(156, 204, 211);
+    border-radius: 0px;
+  }
+  
+  .book .row form.dk .inputBox{
+    padding:.2rem 0;
+    /* color: rgb(25, 158, 175); */
+  }
+  
+  .book .row form.dk .inputBox input{
+    text-transform: capitalize;
+    font: bold 15px "open Sans", sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(99, 109, 109);
+    border-radius: 5px;
+    padding: 8px;
+    border-color: rgb(25, 158, 175);
+    /* border: rgb(25, 158, 175); */
+
+  }
+  
+  .book .row form.dk .inputBox h3{
+    text-transform: capitalize;
+    font: bold 20px "open Sans", sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(25, 158, 175);
+  }
+  .btn{
+    text-transform: capitalize;
+    font: bold 32px "open Sans", sans-serif;
+    background-color: rgb(25, 158, 175);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .btn:hover{
+    background-color: rgb(127, 182, 255);
+      border-color: rgb(25, 158, 175);
+  }
+
+
+/* .............đặt ngay..................... */
+ button.datngay{
+    text-transform: capitalize;
+    font: bold 15px "open Sans", sans-serif;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(25, 158, 175);
+    border-color: rgb(25, 158, 175);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+  }
+
+button.datngay:hover{
+    background-color: rgb(127, 182, 255);
+    border-color: rgb(25, 158, 175);
+  }
+
+.stars{
+      color: rgb(253, 215, 48);
+  }
+  
+ /* .........Cart............... */
+ .cart{
+  text-transform: capitalize;
+  font: bold 15px "open Sans", sans-serif;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  
+}
+.cart h2{
+  text-transform: capitalize;
+    font: bold 32px "open Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(25, 158, 175);
+}
+.cart table{
+  width: 100%;
+}
+.cart table thead tr th:first-child{
+  text-align: left;
+}
+.cart table tr td{
+border-bottom: 1.5px solid #ccc;
+padding: 12px 0;
+}
+.cart table thead tr td:last-child{
+text-align: right;
+}
+.cart table body tr td:last-child{
+text-align: left;
+}
+.price-total{
+  text-align: right;
+}
+
+/* ============= ẩn giở hàng sang bên===============*/
+.cart button{
+  text-transform: capitalize;
+  font: bold 15px "open Sans", sans-serif;
+  margin-bottom: 5px;
+  color: rgb(25, 158, 175);
+  text-align: center;
+  background-color: #fff;
+  border-color: rgb(25, 158, 175);
+  border-radius: 10px;
+  
+  border: none;
+  padding: 10px;
+}
+.cart{
+  position: fixed;
+  height: 100vh;
+  width: 500px;
+  right: 0;
+  top: 0;
+  background-color: rgb(25, 158, 175);
+  border-radius: 0px;
+  border: none;
+  padding: 5px 20px;; 
+  overflow-y: scroll;
+  right: -100%;
+  transform: all 0.3s ease;
+}
+.cart i{
+  cursor: pointer;
+}
+/* =========giỏ hàng======== */
+.cart-icon i{
+  cursor: pointer;
+}
